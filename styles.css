@@ -1,0 +1,117 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("s.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+}
+.container{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.container header{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    position: relative;
+}
+.container header::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 3px;
+    width: 27px;
+    border-radius: 8px;
+    background-color: #4070f4;
+}
+.container form{
+    position: relative;
+    min-height: 490px;
+    margin-top: 16px;
+    background-color: #fff;
+}
+.container form .details {
+    margin-top: 30px;
+    }
+.container form .title{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 6px 0;
+    color:#4070f4;
+    display: block;
+    margin-bottom: 20px;
+}
+.container form .fields{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form .fields .input-field{
+    display: flex;
+    flex-direction: column;
+    width:calc(100% / 3 - 15px);
+}
+.form .fields .select{
+    display: flex;
+    flex-direction: column;
+    width:calc(100% / 3 - 15px);
+}
+.input-field input{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius:#333;
+    border: 1px solid #aaa;
+    height: 42px;
+    margin: 8px 0;
+}
+.input-field select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius:#333;
+    border: 1px solid #aaa;
+    height: 42px;
+    margin: 8px 0;
+}
+.container form button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color:#fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background-color: #f30505;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    margin-left: 350px;
+}
+form button:hover{
+    background-color: #265df2;
+}
+
+
+    
+ 
+
+
